@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #ee6161c0;
+  }
+  
+  table {
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+  
+  a, button {
+    padding: 1px;
+    background: #000000;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px auto;
+    gap: 10px;
+  }
+  
+  .lista {
+    margin-top: 20px;
+  }
